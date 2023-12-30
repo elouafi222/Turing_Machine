@@ -1,0 +1,18 @@
+programme pour reconnaitre le langage a^nb^nc^n
+reconnaisseur
+q0
+q5
+q0,X,q0,X,R
+q0,a,q1,X,R
+q0,#,q5,#,R
+q1,a,q1,a,R
+q1,X,q1,X,R
+q1,b,q2,X,R
+q2,X,q2,X,R
+q2,b,q2,b,R
+q2,c,q3,X,L
+q3,X,q3,X,L
+q3,b,q3,b,L
+q3,a,q3,a,L
+q3,#,q4,#,R
+q4,X,q0,X,R

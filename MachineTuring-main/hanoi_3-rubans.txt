@@ -1,0 +1,15 @@
+Tours de Hanoi pour 3 disques (sur 3 rubans)
+calculateur
+q0
+q5
+q0,3,#,#,q0,3,#,#,R,S,S
+q0,2,#,#,q0,2,#,#,R,S,S
+q0,1,#,#,q0,1,#,#,R,S,S
+q0,#,#,#,q1,#,#,#,L,S,S
+q1,1,#,#,q2,#,#,1,L,S,S
+q2,2,#,1,q3,#,2,1,L,R,S
+q3,3,#,1,q4,3,1,#,S,S,S
+q4,3,1,#,q2,#,1,3,S,S,R
+q2,#,1,3,q3,1,#,3,S,L,R
+q3,1,2,#,q4,1,#,2,S,S,R
+q4,1,#,#,q5,#,#,1,S,S,S

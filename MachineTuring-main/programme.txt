@@ -1,0 +1,8 @@
+programme de l'addition unaire
+mode d'utilisation:accepteur
+q0 q2
+q0,1,q0,1,R,
+q0,0,q0,1,R,
+q0,#,q1,#,L,
+q1,1,q1,1,L,
+q1,#,q2,#,R,
